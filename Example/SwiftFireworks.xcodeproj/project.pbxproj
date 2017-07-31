@@ -10,11 +10,11 @@
 		0483E6F7FCF71D30798FB1E5 /* Pods_SwiftFireworks_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB158ABAE19F5A3CABC0CC1 /* Pods_SwiftFireworks_Tests.framework */; };
 		46494958E5C8E5F601D3A8D3 /* Pods_SwiftFireworks_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21293F6218A13C057038C28F /* Pods_SwiftFireworks_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6B21C3AE1F2ED7F900B8025F /* SkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21C3AD1F2ED7F900B8025F /* SkyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,22 +30,22 @@
 /* Begin PBXFileReference section */
 		21293F6218A13C057038C28F /* Pods_SwiftFireworks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFireworks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3605FDBC939203C38E4D188E /* Pods-SwiftFireworks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFireworks_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFireworks_Example/Pods-SwiftFireworks_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40848790B7DACC5A5293CA71 /* SwiftFireworks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftFireworks.podspec; path = ../SwiftFireworks.podspec; sourceTree = "<group>"; };
+		40848790B7DACC5A5293CA71 /* SwiftFireworks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftFireworks.podspec; path = ../SwiftFireworks.podspec; sourceTree = "<group>"; };
 		4DB158ABAE19F5A3CABC0CC1 /* Pods_SwiftFireworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFireworks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BE9305094DEA56FDA106F6 /* Pods-SwiftFireworks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFireworks_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFireworks_Tests/Pods-SwiftFireworks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B8C32C4BB8D1FB2DC2252D1 /* Pods-SwiftFireworks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFireworks_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFireworks_Tests/Pods-SwiftFireworks_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5E84EBB4D7375FB0A961A2F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E84EBB4D7375FB0A961A2F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftFireworks_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFireworks_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftFireworks_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFireworks_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75897765A8C8624E4C43993E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B21C3AD1F2ED7F900B8025F /* SkyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyViewController.swift; sourceTree = "<group>"; };
+		75897765A8C8624E4C43993E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB90DF89B02A3738CEDADE65 /* Pods-SwiftFireworks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFireworks_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFireworks_Example/Pods-SwiftFireworks_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				6B21C3AD1F2ED7F900B8025F /* SkyViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -361,7 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				6B21C3AE1F2ED7F900B8025F /* SkyViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

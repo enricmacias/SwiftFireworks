@@ -1,0 +1,22 @@
+{
+  "name": "SwiftFireworks",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftFireworks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/enric_maciaslopez/SwiftFireworks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "enric_maciaslopez": "enric_maciaslopez@cyberagent.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/enric_maciaslopez/SwiftFireworks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftFireworks/Classes/**/*"
+}

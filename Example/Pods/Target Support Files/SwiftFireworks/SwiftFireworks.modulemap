@@ -1,0 +1,6 @@
+framework module SwiftFireworks {
+  umbrella header "SwiftFireworks-umbrella.h"
+
+  export *
+  module * { export * }
+}

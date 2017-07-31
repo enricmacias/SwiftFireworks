@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFireworks (0.1.0)
+
+DEPENDENCIES:
+  - SwiftFireworks (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftFireworks:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftFireworks: 409b37715c5e2bb575c530258f0e205418160b96
+
+PODFILE CHECKSUM: 6a8134e30bae693d0fff53c6fae1447a9a4a0da1
+
+COCOAPODS: 1.2.1

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Fireworks
+import SwiftFireworks
 
 class SkyViewController: UIViewController {
 
@@ -41,11 +41,11 @@ class SkyViewController: UIViewController {
         let rightBounds: CGFloat = screenBounds.origin.x + screenBounds.size.width - 20.0
         let topBounds: CGFloat = screenBounds.origin.y + 20.0
         let bottomBounds: CGFloat = screenBounds.origin.y + screenBounds.size.height - 20.0
-        let posX: CGFloat = Fireworks.sharedInstance.randomCGFloat(min: leftBounds, max: rightBounds)
-        let posY: CGFloat = Fireworks.sharedInstance.randomCGFloat(min: topBounds, max: bottomBounds)
+        let posX: CGFloat = SwiftFireworks.sharedInstance.randomCGFloat(min: leftBounds, max: rightBounds)
+        let posY: CGFloat = SwiftFireworks.sharedInstance.randomCGFloat(min: topBounds, max: bottomBounds)
         
-        Fireworks.sharedInstance.showFirework(inView: view,
-                                              andPosition: CGPoint(x: posX, y: posY))
+        SwiftFireworks.sharedInstance.showFirework(inView: view,
+                                                   andPosition: CGPoint(x: posX, y: posY))
     }
     
     @IBAction func didPressFireworkSetButton() {
@@ -55,12 +55,12 @@ class SkyViewController: UIViewController {
         let rightBounds: CGFloat = screenBounds.origin.x + screenBounds.size.width - 20.0
         let topBounds: CGFloat = screenBounds.origin.y + 20.0
         let bottomBounds: CGFloat = screenBounds.origin.y + screenBounds.size.height - 20.0
-        let posX = Fireworks.sharedInstance.randomCGFloat(min: leftBounds, max: rightBounds)
-        let posY = Fireworks.sharedInstance.randomCGFloat(min: topBounds, max: bottomBounds)
+        let posX = SwiftFireworks.sharedInstance.randomCGFloat(min: leftBounds, max: rightBounds)
+        let posY = SwiftFireworks.sharedInstance.randomCGFloat(min: topBounds, max: bottomBounds)
         
-        Fireworks.sharedInstance.showFireworkSet(inView: view,
-                                                 andPosition: CGPoint(x: posX, y: posY),
-                                                 numberOfFireworks: 6)
+        SwiftFireworks.sharedInstance.showFireworkSet(inView: view,
+                                                      andPosition: CGPoint(x: posX, y: posY),
+                                                      numberOfFireworks: 6)
     }
 
 }
