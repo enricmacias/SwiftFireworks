@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftFireworks.svg?style=flat)](http://cocoapods.org/pods/SwiftFireworks)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftFireworks.svg?style=flat)](http://cocoapods.org/pods/SwiftFireworks)
 
+![alt tag](https://raw.github.com/enricmacias/SwiftFireworks/master/Preview/preview.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
