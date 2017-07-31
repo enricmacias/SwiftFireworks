@@ -1,6 +1,6 @@
 # SwiftFireworks
 
-[![CI Status](http://img.shields.io/travis/enric_maciaslopez/SwiftFireworks.svg?style=flat)](https://travis-ci.org/enric_maciaslopez/SwiftFireworks)
+[![CI Status](http://img.shields.io/travis/enric_maciaslopez/SwiftFireworks.svg?style=flat)](https://travis-ci.org/enricmacias/SwiftFireworks)
 [![Version](https://img.shields.io/cocoapods/v/SwiftFireworks.svg?style=flat)](http://cocoapods.org/pods/SwiftFireworks)
 [![License](https://img.shields.io/cocoapods/l/SwiftFireworks.svg?style=flat)](http://cocoapods.org/pods/SwiftFireworks)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftFireworks.svg?style=flat)](http://cocoapods.org/pods/SwiftFireworks)
@@ -24,7 +24,7 @@ pod "SwiftFireworks"
 
 ## Author
 
-enric_maciaslopez, enric_maciaslopez@cyberagent.co.jp
+Enric Macias Lopez, enric.macias.lopez@gmail.com
 
 ## License
 
