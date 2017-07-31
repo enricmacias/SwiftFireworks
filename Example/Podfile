@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftFireworks_Example' do
+  pod 'SwiftFireworks', :path => '../'
+
+  target 'SwiftFireworks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
