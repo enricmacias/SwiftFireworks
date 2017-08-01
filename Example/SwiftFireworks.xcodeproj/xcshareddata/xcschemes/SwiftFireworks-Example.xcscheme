@@ -52,6 +52,16 @@
                ReferencedContainer = "container:SwiftFireworks.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B1E84271F30771E00E5AC21"
+               BuildableName = "SwiftFrameworks_CarthageTests.xctest"
+               BlueprintName = "SwiftFrameworks_CarthageTests"
+               ReferencedContainer = "container:SwiftFireworks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
