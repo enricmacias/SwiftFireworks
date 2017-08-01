@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B1E841F1F30771E00E5AC21"
-               BuildableName = "SwiftFrameworks.framework"
-               BlueprintName = "SwiftFrameworks"
+               BlueprintIdentifier = "6B1E847F1F30808100E5AC21"
+               BuildableName = "SwiftFireworks.framework"
+               BlueprintName = "SwiftFireworks"
                ReferencedContainer = "container:SwiftFireworks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B1E841F1F30771E00E5AC21"
-            BuildableName = "SwiftFrameworks.framework"
-            BlueprintName = "SwiftFrameworks"
+            BlueprintIdentifier = "6B1E847F1F30808100E5AC21"
+            BuildableName = "SwiftFireworks.framework"
+            BlueprintName = "SwiftFireworks"
             ReferencedContainer = "container:SwiftFireworks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B1E841F1F30771E00E5AC21"
-            BuildableName = "SwiftFrameworks.framework"
-            BlueprintName = "SwiftFrameworks"
+            BlueprintIdentifier = "6B1E847F1F30808100E5AC21"
+            BuildableName = "SwiftFireworks.framework"
+            BlueprintName = "SwiftFireworks"
             ReferencedContainer = "container:SwiftFireworks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

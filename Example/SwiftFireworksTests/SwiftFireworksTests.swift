@@ -1,15 +1,15 @@
 //
-//  SwiftFrameworks_CarthageTests.swift
-//  SwiftFrameworks_CarthageTests
+//  SwiftFireworksTests.swift
+//  SwiftFireworksTests
 //
 //  Created by Enric Macias Lopez on 2017/08/01.
 //  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftFrameworks_Carthage
+@testable import SwiftFireworks
 
-class SwiftFrameworks_CarthageTests: XCTestCase {
+class SwiftFireworksTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

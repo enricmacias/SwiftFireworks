@@ -62,6 +62,16 @@
                ReferencedContainer = "container:SwiftFireworks.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B1E84871F30808200E5AC21"
+               BuildableName = "SwiftFireworksTests.xctest"
+               BlueprintName = "SwiftFireworksTests"
+               ReferencedContainer = "container:SwiftFireworks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
