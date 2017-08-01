@@ -45,11 +45,18 @@ SwiftFireworks.sharedInstance.showFirework(inView: view,　andPosition: CGPoint(
 
 ## Installation
 
-SwiftFireworks is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Cocoapods
+
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "SwiftFireworks"
+```
+
+### Carthage
+
+```ruby
+github "enricmacias/SwiftFireworks"
 ```
 
 ## Author
