@@ -55,9 +55,13 @@ pod "SwiftFireworks"
 
 ### Carthage
 
+To install it, add the following line to your Cartfile:
+
 ```ruby
 github "enricmacias/SwiftFireworks"
 ```
+
+Run ```carthage update``` to build the framework and drag the built ```SwiftFireworks.framework``` into your Xcode project.
 
 ## Author
 
