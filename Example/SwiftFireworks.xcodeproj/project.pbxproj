@@ -14,11 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6B1E84291F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */; };
+		6B1E84291F30771E00E5AC21 /* SwiftFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */; };
 		6B1E84301F30771E00E5AC21 /* SwiftFrameworks_CarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E842F1F30771E00E5AC21 /* SwiftFrameworks_CarthageTests.swift */; };
 		6B1E84321F30771E00E5AC21 /* SwiftFrameworks_Carthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1E84221F30771E00E5AC21 /* SwiftFrameworks_Carthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B1E84351F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */; };
-		6B1E84361F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B1E84351F30771E00E5AC21 /* SwiftFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */; };
+		6B1E84361F30771E00E5AC21 /* SwiftFrameworks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B1E843F1F30775C00E5AC21 /* Fireworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E843E1F30775C00E5AC21 /* Fireworks.swift */; };
 		6B21C3AE1F2ED7F900B8025F /* SkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21C3AD1F2ED7F900B8025F /* SkyViewController.swift */; };
 /* End PBXBuildFile section */
@@ -61,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B1E84361F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Embed Frameworks */,
+				6B1E84361F30771E00E5AC21 /* SwiftFrameworks.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,7 +85,7 @@
 		607FACE51AFB9204008FA782 /* SwiftFireworks_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFireworks_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFrameworks_Carthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1E84221F30771E00E5AC21 /* SwiftFrameworks_Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFrameworks_Carthage.h; sourceTree = "<group>"; };
 		6B1E84231F30771E00E5AC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B1E84281F30771E00E5AC21 /* SwiftFrameworks_CarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFrameworks_CarthageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1E84351F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Frameworks */,
+				6B1E84351F30771E00E5AC21 /* SwiftFrameworks.framework in Frameworks */,
 				46494958E5C8E5F601D3A8D3 /* Pods_SwiftFireworks_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1E84291F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework in Frameworks */,
+				6B1E84291F30771E00E5AC21 /* SwiftFrameworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* SwiftFireworks_Example.app */,
 				607FACE51AFB9204008FA782 /* SwiftFireworks_Tests.xctest */,
-				6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */,
+				6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */,
 				6B1E84281F30771E00E5AC21 /* SwiftFrameworks_CarthageTests.xctest */,
 			);
 			name = Products;
@@ -311,9 +311,9 @@
 			productReference = 607FACE51AFB9204008FA782 /* SwiftFireworks_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6B1E841F1F30771E00E5AC21 /* SwiftFrameworks_Carthage */ = {
+		6B1E841F1F30771E00E5AC21 /* SwiftFrameworks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B1E843B1F30771E00E5AC21 /* Build configuration list for PBXNativeTarget "SwiftFrameworks_Carthage" */;
+			buildConfigurationList = 6B1E843B1F30771E00E5AC21 /* Build configuration list for PBXNativeTarget "SwiftFrameworks" */;
 			buildPhases = (
 				6B1E841B1F30771E00E5AC21 /* Sources */,
 				6B1E841C1F30771E00E5AC21 /* Frameworks */,
@@ -324,9 +324,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftFrameworks_Carthage;
+			name = SwiftFrameworks;
 			productName = SwiftFrameworks_Carthage;
-			productReference = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks_Carthage.framework */;
+			productReference = 6B1E84201F30771E00E5AC21 /* SwiftFrameworks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B1E84271F30771E00E5AC21 /* SwiftFrameworks_CarthageTests */ = {
@@ -393,7 +393,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* SwiftFireworks_Example */,
 				607FACE41AFB9204008FA782 /* SwiftFireworks_Tests */,
-				6B1E841F1F30771E00E5AC21 /* SwiftFrameworks_Carthage */,
+				6B1E841F1F30771E00E5AC21 /* SwiftFrameworks */,
 				6B1E84271F30771E00E5AC21 /* SwiftFrameworks_CarthageTests */,
 			);
 		};
@@ -570,7 +570,7 @@
 		};
 		6B1E842B1F30771E00E5AC21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B1E841F1F30771E00E5AC21 /* SwiftFrameworks_Carthage */;
+			target = 6B1E841F1F30771E00E5AC21 /* SwiftFrameworks */;
 			targetProxy = 6B1E842A1F30771E00E5AC21 /* PBXContainerItemProxy */;
 		};
 		6B1E842D1F30771E00E5AC21 /* PBXTargetDependency */ = {
@@ -580,7 +580,7 @@
 		};
 		6B1E84341F30771E00E5AC21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B1E841F1F30771E00E5AC21 /* SwiftFrameworks_Carthage */;
+			target = 6B1E841F1F30771E00E5AC21 /* SwiftFrameworks */;
 			targetProxy = 6B1E84331F30771E00E5AC21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -878,7 +878,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B1E843B1F30771E00E5AC21 /* Build configuration list for PBXNativeTarget "SwiftFrameworks_Carthage" */ = {
+		6B1E843B1F30771E00E5AC21 /* Build configuration list for PBXNativeTarget "SwiftFrameworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B1E84371F30771E00E5AC21 /* Debug */,
