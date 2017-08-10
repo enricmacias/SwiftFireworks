@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,17 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tte-rt-Z3W">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tte-rt-Z3W">
                                 <rect key="frame" x="158" y="20" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Firework"/>
                                 <connections>
                                     <action selector="didPressFirework" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Ho-I4-lrC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRH-U2-WIQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRH-U2-WIQ">
                                 <rect key="frame" x="141" y="58" width="93" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fireworks Set"/>
                                 <connections>
                                     <action selector="didPressFireworkSetButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iMr-gU-H75"/>
@@ -39,6 +37,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tte-rt-Z3W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="EkA-GP-3Gy"/>
+                            <constraint firstItem="tte-rt-Z3W" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="XQx-IL-YOo"/>
+                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="top" secondItem="tte-rt-Z3W" secondAttribute="bottom" constant="8" id="hLP-PX-Byb"/>
+                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="vDn-Pu-bCR"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="fireworkButton" destination="tte-rt-Z3W" id="1tF-he-FMR"/>
