@@ -25,23 +25,41 @@
                                 <rect key="frame" x="158" y="20" width="59" height="30"/>
                                 <state key="normal" title="Firework"/>
                                 <connections>
-                                    <action selector="didPressFirework" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Ho-I4-lrC"/>
+                                    <action selector="didPressFirework" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uke-yt-Nni"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbB-Eb-9gs">
+                                <rect key="frame" x="128" y="53" width="120" height="30"/>
+                                <state key="normal" title="Random Firework"/>
+                                <connections>
+                                    <action selector="didPressRandomFirework" destination="vXZ-lx-hvc" eventType="touchUpInside" id="b3p-ZZ-ktX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRH-U2-WIQ">
-                                <rect key="frame" x="141" y="58" width="93" height="30"/>
+                                <rect key="frame" x="141" y="86" width="93" height="30"/>
                                 <state key="normal" title="Fireworks Set"/>
                                 <connections>
-                                    <action selector="didPressFireworkSetButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iMr-gU-H75"/>
+                                    <action selector="didPressFireworkSetButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="trm-As-BlK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2g-XI-MVy">
+                                <rect key="frame" x="115" y="120" width="146" height="30"/>
+                                <state key="normal" title="Random Firework Set"/>
+                                <connections>
+                                    <action selector="didPressRandomFireworkSetButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="z2v-Do-ZGl"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tte-rt-Z3W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="EkA-GP-3Gy"/>
-                            <constraint firstItem="tte-rt-Z3W" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="XQx-IL-YOo"/>
-                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="top" secondItem="tte-rt-Z3W" secondAttribute="bottom" constant="8" id="hLP-PX-Byb"/>
-                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="vDn-Pu-bCR"/>
+                            <constraint firstItem="y2g-XI-MVy" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="DJt-ud-X2b"/>
+                            <constraint firstItem="MbB-Eb-9gs" firstAttribute="top" secondItem="tte-rt-Z3W" secondAttribute="bottom" constant="3" id="eJP-ox-91J"/>
+                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ejB-20-dKv"/>
+                            <constraint firstItem="MbB-Eb-9gs" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ejY-FW-39T"/>
+                            <constraint firstItem="tte-rt-Z3W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="iOS-qD-k1Y"/>
+                            <constraint firstItem="lRH-U2-WIQ" firstAttribute="top" secondItem="MbB-Eb-9gs" secondAttribute="bottom" constant="3" id="owk-Zo-fxU"/>
+                            <constraint firstItem="y2g-XI-MVy" firstAttribute="top" secondItem="lRH-U2-WIQ" secondAttribute="bottom" constant="4" id="y5E-VZ-FfG"/>
+                            <constraint firstItem="tte-rt-Z3W" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zcU-k1-PDd"/>
                         </constraints>
                     </view>
                     <connections>
