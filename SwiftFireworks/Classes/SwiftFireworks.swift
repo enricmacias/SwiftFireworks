@@ -106,7 +106,7 @@ public class SwiftFireworks: NSObject, CAAnimationDelegate {
                          clockwise: false)
         
         mask.path = donutPath
-        mask.fillRule = kCAFillRuleEvenOdd
+        mask.fillRule = CAShapeLayerFillRule.evenOdd
         
         return mask
     }
@@ -116,7 +116,7 @@ public class SwiftFireworks: NSObject, CAAnimationDelegate {
         animation.duration = 0.5
         animation.fromValue = 0.001
         animation.toValue = 1.0
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         
         firework.add(animation, forKey: "boom")
         
@@ -124,7 +124,7 @@ public class SwiftFireworks: NSObject, CAAnimationDelegate {
         maskAnimation.duration = 2.0
         maskAnimation.fromValue = 1.0
         maskAnimation.toValue = 2.0
-        maskAnimation.fillMode = kCAFillModeForwards
+        maskAnimation.fillMode = CAMediaTimingFillMode.forwards
         maskAnimation.isRemovedOnCompletion = false
         maskAnimation.delegate = self
         maskAnimation.setValue(firework.description, forKey: "vanish")
@@ -165,3 +165,4 @@ public class SwiftFireworks: NSObject, CAAnimationDelegate {
         firework?.removeFromSuperlayer()
     }
 }
+
